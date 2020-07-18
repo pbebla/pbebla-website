@@ -11,6 +11,12 @@ const Styles = styled.div`
         &:hover {
             color: white;
         }
+        &:visited {
+            color: #bbb;
+        }
+        &:active {
+            color: #ffff00;
+        }
     }
 `;
 
@@ -24,6 +30,7 @@ export const NavigationBar = () => (
                     <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="https://github.com/pbebla" target="_blank">Github</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
