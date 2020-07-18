@@ -8,12 +8,14 @@ import {NoMatch} from "./NoMatch";
 import {Layout} from "./components/Layout";
 import {NavigationBar} from './components/NavigationBar';
 import {Jumbotron} from './components/Jumbotron';
+import { CarouselComponent } from './components/CarouselComponent';
 
 function App() {
   return (
     <React.Fragment>
       <NavigationBar />
       <Jumbotron />
+      <CarouselComponent/>
       <Layout>
         <Router>
           <Switch>
