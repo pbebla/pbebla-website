@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactTwitchEmbedVideo  from 'react-twitch-embed-video';
-import {Container} from 'react-bootstrap';
 
 export const Home = () => {
     return (
