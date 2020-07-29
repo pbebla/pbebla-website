@@ -1,5 +1,5 @@
 import React from 'react';
-import {Jumbotron as Jumbo, Container, Carousel} from 'react-bootstrap';
+import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
 import styled from 'styled-components';
 import Cyna from "../assets/Attempt3.png";
 

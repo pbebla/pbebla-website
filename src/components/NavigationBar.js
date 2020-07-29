@@ -30,7 +30,9 @@ export const NavigationBar = () => (
                     <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="file:///D:\Users\Pauldin\Downloads\Pauldin_Bebla_Resume.pdf" target="_blank">Resume</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="https://github.com/pbebla" target="_blank">Github</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="https://www.linkedin.com/in/pauldin-bebla-63b87013a/" target="_blank">Linkedin</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
