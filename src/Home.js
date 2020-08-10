@@ -8,7 +8,7 @@ export const Home = () => {
       <CarouselComponent />
       <p>Home</p>
       <ReactTwitchEmbedVideo
-        channel="lflo203"
+        channel="cynaschism"
         height="480"
         muted={false}
         targetId="twitch-embed"
