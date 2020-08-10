@@ -17,7 +17,7 @@ function App() {
         <NavigationBar />
         <Jumbotron />
         <Layout>
-          <Router>
+          <Router basename="https://pbebla.github.io">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
