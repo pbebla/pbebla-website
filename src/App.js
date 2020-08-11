@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
 import { About } from "./About";
 import { Contact } from "./Contact";
@@ -17,7 +17,7 @@ function App() {
         <NavigationBar />
         <Jumbotron />
         <Layout>
-          <Router basename="https://pbebla.github.io">
+          <Router>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
