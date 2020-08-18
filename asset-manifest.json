@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.b514af34.chunk.css",
-    "main.js": "/static/js/main.fed7a5d4.chunk.js",
-    "main.js.map": "/static/js/main.fed7a5d4.chunk.js.map",
+    "main.js": "/static/js/main.f177e672.chunk.js",
+    "main.js.map": "/static/js/main.f177e672.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
     "static/css/2.e2dd9b0a.chunk.css": "/static/css/2.e2dd9b0a.chunk.css",
-    "static/js/2.94b9ba16.chunk.js": "/static/js/2.94b9ba16.chunk.js",
-    "static/js/2.94b9ba16.chunk.js.map": "/static/js/2.94b9ba16.chunk.js.map",
+    "static/js/2.30cd25a8.chunk.js": "/static/js/2.30cd25a8.chunk.js",
+    "static/js/2.30cd25a8.chunk.js.map": "/static/js/2.30cd25a8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f98f22464d5c19fe189dc5f2f2068ad0.js": "/precache-manifest.f98f22464d5c19fe189dc5f2f2068ad0.js",
+    "precache-manifest.fe0e14f1fb9471db52ec7b0f60bae905.js": "/precache-manifest.fe0e14f1fb9471db52ec7b0f60bae905.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e2dd9b0a.chunk.css.map": "/static/css/2.e2dd9b0a.chunk.css.map",
     "static/css/main.b514af34.chunk.css.map": "/static/css/main.b514af34.chunk.css.map",
-    "static/js/2.94b9ba16.chunk.js.LICENSE.txt": "/static/js/2.94b9ba16.chunk.js.LICENSE.txt",
+    "static/js/2.30cd25a8.chunk.js.LICENSE.txt": "/static/js/2.30cd25a8.chunk.js.LICENSE.txt",
     "static/media/ACS_SC_39_SDCC_EvieAssassination_watermark_211604.0.jpg": "/static/media/ACS_SC_39_SDCC_EvieAssassination_watermark_211604.0.3059ed00.jpg",
     "static/media/Assassin's Creed Brotherhood.jpg": "/static/media/Assassin's Creed Brotherhood.30661929.jpg",
     "static/media/Attempt3.png": "/static/media/Attempt3.f6471cde.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
     "static/css/2.e2dd9b0a.chunk.css",
-    "static/js/2.94b9ba16.chunk.js",
+    "static/js/2.30cd25a8.chunk.js",
     "static/css/main.b514af34.chunk.css",
-    "static/js/main.fed7a5d4.chunk.js"
+    "static/js/main.f177e672.chunk.js"
   ]
 }
