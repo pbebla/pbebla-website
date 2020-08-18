@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea51906a67251585f35af0396a675ed9",
+    "revision": "0c5ba1d21bada4aeb8dd0d0ab72b4a66",
     "url": "/index.html"
   },
   {
-    "revision": "e473227e7eb251badbe5",
-    "url": "/static/css/main.5f361e03.chunk.css"
+    "revision": "a0355c7f5c8dafa14cfe",
+    "url": "/static/css/2.e2dd9b0a.chunk.css"
   },
   {
-    "revision": "e3fc11bb94511b12fd8a",
-    "url": "/static/js/2.5465ed0b.chunk.js"
+    "revision": "03ddf536252acb859a46",
+    "url": "/static/css/main.b514af34.chunk.css"
+  },
+  {
+    "revision": "a0355c7f5c8dafa14cfe",
+    "url": "/static/js/2.6560663b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.5465ed0b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6560663b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e473227e7eb251badbe5",
-    "url": "/static/js/main.d658e9b1.chunk.js"
+    "revision": "03ddf536252acb859a46",
+    "url": "/static/js/main.70cd0bbc.chunk.js"
   },
   {
-    "revision": "415e9bcf6c081ea50565",
-    "url": "/static/js/runtime-main.f8c5b4be.js"
+    "revision": "73635f645c271e35ff15",
+    "url": "/static/js/runtime-main.83c3e0c4.js"
   },
   {
     "revision": "3059ed00c1787aad3c10439e5e8f4d24",
@@ -50,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14c8d1cc0a71f36f493a573d3a7be3fe",
     "url": "/static/media/Zelda.14c8d1cc.jpg"
+  },
+  {
+    "revision": "f5a8fa78d78c0bc034336fe94959cb7e",
+    "url": "/static/media/tamas-tuzes-katai-FokPj_ZhMiY-unsplash.f5a8fa78.jpg"
   }
 ]);
