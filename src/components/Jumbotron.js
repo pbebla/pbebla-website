@@ -2,7 +2,8 @@ import React from "react";
 import { Jumbotron as Jumbo, Container } from "react-bootstrap";
 import styled from "styled-components";
 import Cyna from "../assets/Attempt3.png";
-
+import Typical from 'react-typical';
+import 'animate.css';
 const Styles = styled.div`
   .jumbotron {
     background: url(${Cyna}) no-repeat;
@@ -30,8 +31,12 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <h1>Welcome</h1>
-        <p>VVVVV</p>
+        <h1 className="animate__animated animate__fadeInDown">Welcome</h1>
+        <p>
+        <Typical
+          wrapper="b"
+          steps={['I\'m Pauldin Bebla, and I\'m a developer.', 1000]}
+        /></p>
       </Container>
     </Jumbo>
   </Styles>
