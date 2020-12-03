@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b514af34.chunk.css",
-    "main.js": "/static/js/main.390aa694.chunk.js",
-    "main.js.map": "/static/js/main.390aa694.chunk.js.map",
+    "main.css": "/static/css/main.e2b44a84.chunk.css",
+    "main.js": "/static/js/main.d7534ac0.chunk.js",
+    "main.js.map": "/static/js/main.d7534ac0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
     "static/css/2.e2dd9b0a.chunk.css": "/static/css/2.e2dd9b0a.chunk.css",
     "static/js/2.aa53a9ae.chunk.js": "/static/js/2.aa53a9ae.chunk.js",
     "static/js/2.aa53a9ae.chunk.js.map": "/static/js/2.aa53a9ae.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a6be359aa84670afdca0ff67013681a5.js": "/precache-manifest.a6be359aa84670afdca0ff67013681a5.js",
+    "precache-manifest.5e55a7a02eae5adfe346ca2f6f26f55d.js": "/precache-manifest.5e55a7a02eae5adfe346ca2f6f26f55d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e2dd9b0a.chunk.css.map": "/static/css/2.e2dd9b0a.chunk.css.map",
-    "static/css/main.b514af34.chunk.css.map": "/static/css/main.b514af34.chunk.css.map",
+    "static/css/main.e2b44a84.chunk.css.map": "/static/css/main.e2b44a84.chunk.css.map",
     "static/js/2.aa53a9ae.chunk.js.LICENSE.txt": "/static/js/2.aa53a9ae.chunk.js.LICENSE.txt",
     "static/media/ACS_SC_39_SDCC_EvieAssassination_watermark_211604.0.jpg": "/static/media/ACS_SC_39_SDCC_EvieAssassination_watermark_211604.0.3059ed00.jpg",
     "static/media/Assassin's Creed Brotherhood.jpg": "/static/media/Assassin's Creed Brotherhood.30661929.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.83c3e0c4.js",
     "static/css/2.e2dd9b0a.chunk.css",
     "static/js/2.aa53a9ae.chunk.js",
-    "static/css/main.b514af34.chunk.css",
-    "static/js/main.390aa694.chunk.js"
+    "static/css/main.e2b44a84.chunk.css",
+    "static/js/main.d7534ac0.chunk.js"
   ]
 }
