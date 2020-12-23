@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0246a16af2aa24c69d7bac7842cfeca",
+    "revision": "1257d15867f3b90161f2e1ecb610c74e",
     "url": "/index.html"
   },
   {
-    "revision": "7cc79140d404edca685e",
+    "revision": "b093c20957f5d0f3074a",
     "url": "/static/css/2.e2dd9b0a.chunk.css"
   },
   {
-    "revision": "0c85bd7a7cb87b61940a",
+    "revision": "300889839ea1746f66bd",
     "url": "/static/css/main.e2b44a84.chunk.css"
   },
   {
-    "revision": "7cc79140d404edca685e",
-    "url": "/static/js/2.aa53a9ae.chunk.js"
+    "revision": "b093c20957f5d0f3074a",
+    "url": "/static/js/2.ffd21062.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.aa53a9ae.chunk.js.LICENSE.txt"
+    "revision": "596676716ca1328e2733d607535d6ca7",
+    "url": "/static/js/2.ffd21062.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c85bd7a7cb87b61940a",
-    "url": "/static/js/main.d7534ac0.chunk.js"
+    "revision": "300889839ea1746f66bd",
+    "url": "/static/js/main.fd7f8ee3.chunk.js"
+  },
+  {
+    "revision": "9e5e254924194189586e584a439fa336",
+    "url": "/static/js/pdf.worker.entry.ec288995.worker.js"
+  },
+  {
+    "revision": "ac3df35bcd7a2aa579e062210ce2d521",
+    "url": "/static/js/pdf.worker.entry.ec288995.worker.js.LICENSE.txt"
   },
   {
     "revision": "73635f645c271e35ff15",
     "url": "/static/js/runtime-main.83c3e0c4.js"
-  },
-  {
-    "revision": "3059ed00c1787aad3c10439e5e8f4d24",
-    "url": "/static/media/ACS_SC_39_SDCC_EvieAssassination_watermark_211604.0.3059ed00.jpg"
   },
   {
     "revision": "30661929e35448d4abc0dd11f8ecbbb4",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "521654c7f293c0e0264876640fca8265",
     "url": "/static/media/Mini Ninjas.521654c7.jpg"
+  },
+  {
+    "revision": "1056fe54dea32d9db3f1aaa8633f92c2",
+    "url": "/static/media/Pauldin_Bebla_Resume_.1056fe54.pdf"
   },
   {
     "revision": "f45781d7e01cbe0f2c0cfac77b3f29f2",
