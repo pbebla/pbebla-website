@@ -22,7 +22,7 @@ export const CarouselComponent = () => (
                     className="d-block mx-auto w-50"
                     src={VVVVVV}
                     alt=""
-                    fluid
+                    fluid = "true"
                 />
             </Carousel.Item>
             <Carousel.Item>
