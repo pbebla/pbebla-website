@@ -6,12 +6,11 @@ import { NoMatch } from "./NoMatch";
 import { Layout } from "./components/Layout";
 import { NavigationBar } from "./components/NavigationBar";
 import { Jumbotron } from "./components/Jumbotron";
-import Background from "./assets/tamas-tuzes-katai-FokPj_ZhMiY-unsplash.jpg";
 import { Resume } from "./Resume";
 
 function App() {
   return (
-    <div className="backgroundImage" style={{ backgroundImage: `url(${Background})`}}>
+    <div className="backgroundImage">
       <React.Fragment>
         <NavigationBar />
         <Jumbotron />

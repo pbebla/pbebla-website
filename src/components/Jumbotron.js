@@ -1,12 +1,11 @@
 import React from "react";
 import { Jumbotron as Jumbo, Container } from "react-bootstrap";
 import styled from "styled-components";
-import Cyna from "../assets/Attempt3.png";
+//import Cyna from "../assets/Attempt3.png";
 import Typical from 'react-typical';
 import 'animate.css';
 const Styles = styled.div`
   .jumbotron {
-    background: url(${Cyna}) no-repeat;
     background-size: cover;
     background-position: center;
     color: #ccc;
@@ -41,3 +40,4 @@ export const Jumbotron = () => (
     </Jumbo>
   </Styles>
 );
+//background: url(${Cyna}) no-repeat;
