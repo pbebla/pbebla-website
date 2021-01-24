@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "118a305ad1a05afe1ee9599eca8c89c6",
+    "revision": "9d921714b089a09bf7f139b60abc3b23",
     "url": "/index.html"
   },
   {
-    "revision": "c7be978addb9ac4bb37d",
+    "revision": "e8a4e934a318add2d08a",
     "url": "/static/css/2.e2dd9b0a.chunk.css"
   },
   {
-    "revision": "309a8c005f30c35bd2b7",
-    "url": "/static/css/main.e2b44a84.chunk.css"
+    "revision": "b5aebfcd16ede4a0e8b9",
+    "url": "/static/css/main.1ed2f33d.chunk.css"
   },
   {
-    "revision": "c7be978addb9ac4bb37d",
-    "url": "/static/js/2.1b5096ec.chunk.js"
+    "revision": "e8a4e934a318add2d08a",
+    "url": "/static/js/2.87e3b6c2.chunk.js"
   },
   {
     "revision": "596676716ca1328e2733d607535d6ca7",
-    "url": "/static/js/2.1b5096ec.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.87e3b6c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "309a8c005f30c35bd2b7",
-    "url": "/static/js/main.3fc10609.chunk.js"
+    "revision": "b5aebfcd16ede4a0e8b9",
+    "url": "/static/js/main.bcfd1e36.chunk.js"
   },
   {
     "revision": "9e5e254924194189586e584a439fa336",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "30661929e35448d4abc0dd11f8ecbbb4",
     "url": "/static/media/Assassin's Creed Brotherhood.30661929.jpg"
-  },
-  {
-    "revision": "f6471cde82603153633772d9851df330",
-    "url": "/static/media/Attempt3.f6471cde.png"
   },
   {
     "revision": "521654c7f293c0e0264876640fca8265",
@@ -62,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14c8d1cc0a71f36f493a573d3a7be3fe",
     "url": "/static/media/Zelda.14c8d1cc.jpg"
+  },
+  {
+    "revision": "f5a8fa78d78c0bc034336fe94959cb7e",
+    "url": "/static/media/tamas-tuzes-katai-FokPj_ZhMiY-unsplash.f5a8fa78.jpg"
   }
 ]);
