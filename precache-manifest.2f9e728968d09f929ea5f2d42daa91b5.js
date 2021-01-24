@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1257d15867f3b90161f2e1ecb610c74e",
+    "revision": "118a305ad1a05afe1ee9599eca8c89c6",
     "url": "/index.html"
   },
   {
-    "revision": "b093c20957f5d0f3074a",
+    "revision": "c7be978addb9ac4bb37d",
     "url": "/static/css/2.e2dd9b0a.chunk.css"
   },
   {
-    "revision": "300889839ea1746f66bd",
+    "revision": "309a8c005f30c35bd2b7",
     "url": "/static/css/main.e2b44a84.chunk.css"
   },
   {
-    "revision": "b093c20957f5d0f3074a",
-    "url": "/static/js/2.ffd21062.chunk.js"
+    "revision": "c7be978addb9ac4bb37d",
+    "url": "/static/js/2.1b5096ec.chunk.js"
   },
   {
     "revision": "596676716ca1328e2733d607535d6ca7",
-    "url": "/static/js/2.ffd21062.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1b5096ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "300889839ea1746f66bd",
-    "url": "/static/js/main.fd7f8ee3.chunk.js"
+    "revision": "309a8c005f30c35bd2b7",
+    "url": "/static/js/main.3fc10609.chunk.js"
   },
   {
     "revision": "9e5e254924194189586e584a439fa336",
@@ -62,9 +62,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14c8d1cc0a71f36f493a573d3a7be3fe",
     "url": "/static/media/Zelda.14c8d1cc.jpg"
-  },
-  {
-    "revision": "f5a8fa78d78c0bc034336fe94959cb7e",
-    "url": "/static/media/tamas-tuzes-katai-FokPj_ZhMiY-unsplash.f5a8fa78.jpg"
   }
 ]);

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e2b44a84.chunk.css",
-    "main.js": "/static/js/main.fd7f8ee3.chunk.js",
-    "main.js.map": "/static/js/main.fd7f8ee3.chunk.js.map",
+    "main.js": "/static/js/main.3fc10609.chunk.js",
+    "main.js.map": "/static/js/main.3fc10609.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
     "static/css/2.e2dd9b0a.chunk.css": "/static/css/2.e2dd9b0a.chunk.css",
-    "static/js/2.ffd21062.chunk.js": "/static/js/2.ffd21062.chunk.js",
-    "static/js/2.ffd21062.chunk.js.map": "/static/js/2.ffd21062.chunk.js.map",
+    "static/js/2.1b5096ec.chunk.js": "/static/js/2.1b5096ec.chunk.js",
+    "static/js/2.1b5096ec.chunk.js.map": "/static/js/2.1b5096ec.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4f7e2cf076be1752442a22968f630e6b.js": "/precache-manifest.4f7e2cf076be1752442a22968f630e6b.js",
+    "precache-manifest.2f9e728968d09f929ea5f2d42daa91b5.js": "/precache-manifest.2f9e728968d09f929ea5f2d42daa91b5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e2dd9b0a.chunk.css.map": "/static/css/2.e2dd9b0a.chunk.css.map",
     "static/css/main.e2b44a84.chunk.css.map": "/static/css/main.e2b44a84.chunk.css.map",
-    "static/js/2.ffd21062.chunk.js.LICENSE.txt": "/static/js/2.ffd21062.chunk.js.LICENSE.txt",
+    "static/js/2.1b5096ec.chunk.js.LICENSE.txt": "/static/js/2.1b5096ec.chunk.js.LICENSE.txt",
     "static/js/pdf.worker.entry.ec288995.worker.js": "/static/js/pdf.worker.entry.ec288995.worker.js",
     "static/js/pdf.worker.entry.ec288995.worker.js.LICENSE.txt": "/static/js/pdf.worker.entry.ec288995.worker.js.LICENSE.txt",
     "static/js/pdf.worker.entry.ec288995.worker.js.map": "/static/js/pdf.worker.entry.ec288995.worker.js.map",
@@ -23,14 +23,13 @@
     "static/media/Pauldin_Bebla_Resume_.pdf": "/static/media/Pauldin_Bebla_Resume_.1056fe54.pdf",
     "static/media/Pokemon.jpg": "/static/media/Pokemon.f45781d7.jpg",
     "static/media/VVVVVV.jpg": "/static/media/VVVVVV.b4d8d57f.jpg",
-    "static/media/Zelda.jpg": "/static/media/Zelda.14c8d1cc.jpg",
-    "static/media/tamas-tuzes-katai-FokPj_ZhMiY-unsplash.jpg": "/static/media/tamas-tuzes-katai-FokPj_ZhMiY-unsplash.f5a8fa78.jpg"
+    "static/media/Zelda.jpg": "/static/media/Zelda.14c8d1cc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
     "static/css/2.e2dd9b0a.chunk.css",
-    "static/js/2.ffd21062.chunk.js",
+    "static/js/2.1b5096ec.chunk.js",
     "static/css/main.e2b44a84.chunk.css",
-    "static/js/main.fd7f8ee3.chunk.js"
+    "static/js/main.3fc10609.chunk.js"
   ]
 }
