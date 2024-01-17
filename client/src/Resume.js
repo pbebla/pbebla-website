@@ -1,7 +1,7 @@
 import React from "react";
 import 'animate.css';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-import { pdfjs } from 'react-pdf';
+//import { pdfjs } from 'react-pdf';
 import ResumeFile from "./assets/Pauldin_Bebla_Resume_.pdf";
 import styled from "styled-components";
 const Styles = styled.div`
@@ -11,7 +11,7 @@ const Styles = styled.div`
   }
 `;
 export const Resume = () => {
-    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+    //pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
   return (
       
     <Styles>
