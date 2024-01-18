@@ -15,7 +15,7 @@ const handleError = (err, res) => {
 const app = express();
 app.set('port', port);
 const upload = multer({
-    dest: "/public/"
+    dest: path.join(__dirname, '/public/')
     // you might also want to set some limits: https://github.com/expressjs/multer#limits
 });
 app.use(cors());
