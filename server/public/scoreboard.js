@@ -163,7 +163,7 @@ var awayAnimation;
 function loadHomeGoalAnimation(){
     homeAnimation = bodymovin.loadAnimation({
         container: document.getElementById('homeContainer'), // Required
-        path: 'home.json', // Required
+        path: '/home.json', // Required
         renderer: 'svg', // Required
         loop: false, // Optional
         autoplay: false, // Optional
@@ -174,7 +174,7 @@ function loadHomeGoalAnimation(){
 function loadAwayGoalAnimation(){
     awayAnimation = bodymovin.loadAnimation({
         container: document.getElementById('awayContainer'), // Required
-        path: 'away.json', // Required
+        path: '/away.json', // Required
         renderer: 'svg', // Required
         loop: false, // Optional
         autoplay: false, // Optional
@@ -261,19 +261,19 @@ function startup() {
 }*/
 
 function updateHomeColors(event) {
-    updateColors(event, './home.json', 'homeColor', '/homeJSON', 'homeName');
+    updateColors(event, '/public/home.json', 'homeColor', '/homeJSON', 'homeName');
 }
 
 function updateAwayColors(event) {
-    updateColors(event, './away.json', 'awayColor', '/awayJSON', 'awayName');
+    updateColors(event, '/public/away.json', 'awayColor', '/awayJSON', 'awayName');
 }
 
 function updateHome2ndColors(event) {
-    update2ndColors(event, './home.json', 'homeColor', '/homeJSON');
+    update2ndColors(event, '/public/home.json', 'homeColor', '/homeJSON');
 }
 
 function updateAway2ndColors(event) {
-    update2ndColors(event, './away.json', 'awayColor', '/awayJSON');
+    update2ndColors(event, '/public/away.json', 'awayColor', '/awayJSON');
 }
 
 function updateColors(ev, json, id, postURL, name) {
@@ -395,12 +395,12 @@ function setName(name, abbr) {
         console.log(window.getComputedStyle(homeName).fontSize);
         nameElement.style.setProperty('--fontSize', '26cqw');
         calcTextWidth(homeName);
-        updateName(homeName, newName, './home.json', '/homeJSON');
+        updateName(homeName, newName, '/public/home.json', '/homeJSON');
     } else if (name == "awayName") {
         console.log(window.getComputedStyle(awayName).fontSize);
         nameElement.style.setProperty('--fontSize', '26cqw');
         calcTextWidth(awayName);
-        updateName(awayName, newName, './away.json', '/awayJSON');
+        updateName(awayName, newName, '/public/away.json', '/awayJSON');
     }
 }
 
@@ -441,7 +441,7 @@ async function handleHomeForm(event) {
     xhr.open("POST", "/homePNG", false);
     xhr.send(data);
 
-    fetch('./home.json').then((response) => response.json())
+    fetch('/public/home.json').then((response) => response.json())
     .then((data) => {
         data['assets']['0']['w'] = width;
         data['assets']['0']['h'] = height;
@@ -455,8 +455,8 @@ async function handleHomeForm(event) {
         });
     });
 
-    fetch("images/homePic.png", {cache: 'reload', mode: 'no-cors'})
-    .then(document.getElementById('homePic').src = "images/homePic.png");
+    fetch("/public/homePic.png", {cache: 'reload', mode: 'no-cors'})
+    .then(document.getElementById('homePic').src = "/public/homePic.png");
     return false;
 } 
 async function handleAwayForm(event) { 
@@ -479,7 +479,7 @@ async function handleAwayForm(event) {
     xhr.open("POST", "/awayPNG");
     xhr.send(data);
 
-    fetch('./away.json').then((response) => response.json())
+    fetch('/public/away.json').then((response) => response.json())
     .then((data) => {
         data['assets']['0']['w'] = width;
         data['assets']['0']['h'] = height;
@@ -493,8 +493,8 @@ async function handleAwayForm(event) {
         });
     });
    
-    fetch("images/awayPic.png", {cache: 'reload', mode: 'no-cors'})
-    .then(document.getElementById('awayPic').src = "images/awayPic.png");
+    fetch("/public/awayPic.png", {cache: 'reload', mode: 'no-cors'})
+    .then(document.getElementById('awayPic').src = "/public/awayPic.png");
     return false;
 } 
 homeForm.addEventListener('submit', handleHomeForm);

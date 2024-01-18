@@ -15,7 +15,7 @@ const handleError = (err, res) => {
 const app = express();
 app.set('port', port);
 const upload = multer({
-    dest: "/public/images/"
+    dest: "/public/"
     // you might also want to set some limits: https://github.com/expressjs/multer#limits
 });
 app.use(cors());
@@ -37,7 +37,7 @@ app.post('/awayJSON', (req, res) => {
 });
 app.post('/homePNG', upload.single('homeFile'), (req, res) => {
     const tempPath = req.file.path;
-    const targetPath = path.join(__dirname, "/public/images/homePic.png");
+    const targetPath = path.join(__dirname, "/public/homePic.png");
     if (path.extname(req.file.originalname).toLowerCase() === ".png") {
       fs.rename(tempPath, targetPath, err => {
         if (err) return handleError(err, res);
@@ -62,7 +62,7 @@ app.post('/homePNG', upload.single('homeFile'), (req, res) => {
 });
 app.post('/awayPNG', upload.single('awayFile'), (req, res) => {
     const tempPath = req.file.path;
-    const targetPath = path.join(__dirname, "/public/images/awayPic.png");
+    const targetPath = path.join(__dirname, "/public/awayPic.png");
     if (path.extname(req.file.originalname).toLowerCase() === ".png") {
       fs.rename(tempPath, targetPath, err => {
         if (err) return handleError(err, res);
