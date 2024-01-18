@@ -15,10 +15,11 @@ const handleError = (err, res) => {
 const app = express();
 app.set('port', port);
 const upload = multer({
-    dest: "/images/"
+    dest: "/public/images/"
     // you might also want to set some limits: https://github.com/expressjs/multer#limits
 });
 app.use(cors());
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname));
 app.use(express.json());
 app.get("/scoreboard", (req, res, next) => { 
@@ -26,40 +27,17 @@ app.get("/scoreboard", (req, res, next) => {
     const _retfile = path.join(__dirname, 'scoreboard.html');
     res.sendFile(_retfile);
 });
-app.get("/scoreboard.js", (req, res, next) => { 
-    // show the page
-    const _retfile = path.join(__dirname, 'scoreboard.js');
-    res.sendFile(_retfile);
-});
-app.get("/scoreboard.css", (req, res, next) => { 
-  // show the page
-  const _retfile = path.join(__dirname, 'scoreboard.css');
-  res.sendFile(_retfile);
-});
-app.get("/lottie.js", (req, res, next) => { 
-  // show the page
-  const _retfile = path.join(__dirname, 'lottie.js');
-  res.sendFile(_retfile);
-});
-app.get('/home.json', (req, res) => {
-  const _retfile = path.join(__dirname, 'home.json');
-  res.sendFile(_retfile);
-});
-app.get('/away.json', (req, res) => {
-  const _retfile = path.join(__dirname, 'away.json');
-  res.sendFile(_retfile);
-});
 app.post('/homeJSON', (req, res) => {
-    var fileName = './home.json';
+    var fileName = './public/home.json';
     updateJSON(fileName, req, res);
 });
 app.post('/awayJSON', (req, res) => {
-    var fileName = './away.json';
+    var fileName = './public/away.json';
     updateJSON(fileName, req, res);
 });
 app.post('/homePNG', upload.single('homeFile'), (req, res) => {
     const tempPath = req.file.path;
-    const targetPath = path.join(__dirname, "./images/homePic.png");
+    const targetPath = path.join(__dirname, "/public/images/homePic.png");
     if (path.extname(req.file.originalname).toLowerCase() === ".png") {
       fs.rename(tempPath, targetPath, err => {
         if (err) return handleError(err, res);
@@ -84,7 +62,7 @@ app.post('/homePNG', upload.single('homeFile'), (req, res) => {
 });
 app.post('/awayPNG', upload.single('awayFile'), (req, res) => {
     const tempPath = req.file.path;
-    const targetPath = path.join(__dirname, "./images/awayPic.png");
+    const targetPath = path.join(__dirname, "/public/images/awayPic.png");
     if (path.extname(req.file.originalname).toLowerCase() === ".png") {
       fs.rename(tempPath, targetPath, err => {
         if (err) return handleError(err, res);
@@ -106,12 +84,6 @@ app.post('/awayPNG', upload.single('awayFile'), (req, res) => {
           .end("Only .png files are allowed!");
       });
     }
-});
-app.get("/homePic.png", (req, res) => {
-    res.sendFile(path.join(__dirname, "./images/homePic.png"));
-});
-app.get("/awayPic.png", (req, res) => {
-    res.sendFile(path.join(__dirname, "./images/awayPic.png"));
 });
 app.listen(port, () => {
     console.log("Server running on port 5000");
